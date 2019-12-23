@@ -1,0 +1,95 @@
+*{
+              outline: none;
+      text-decoration: none;
+-webkit-touch-callout: none;
+  -webkit-user-select: none;
+   -khtml-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #090a0eff;
+}
+.box{
+  position: absolute;
+  margin-top: -150px;
+  width: 300px;
+  height: 70px;
+  background-color: #17ad8f6d;
+  text-align: center !important;
+  display: block;
+}
+.box img{
+  margin-top: 5px;
+  width: 55px !important;
+  height: 60px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper form {
+  width: 380px;
+  max-height: 310px;
+  background-color: #1b1e25ff;
+  display: flex;
+  flex-direction: column;
+  padding: 5em 3em;
+}
+.wrapper form input {
+  padding: 15px 60px 15px 0 !important;
+  background: #e8e8e8c0;
+  margin-bottom: 10px;
+  padding: 5px;
+  color: #000 !important;
+  font-family: Open Sans;
+  border: none;
+  padding-left: 50px !important;
+
+}
+.wrapper form img{
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 20px;
+}
+.wrapper form input::placeholder {
+  color: #000;
+  font-family: Open Sans;
+}
+.wrapper form button {
+  font-weight: bold;
+  padding: 15px 10px;
+  background: #19a88dff;
+  color: #fff;
+  font-size: 16.5px;
+  cursor: pointer;
+  transition: background linear 0.3s;
+  font-family: Open Sans;
+  text-transform: uppercase;
+  border-top: 2px solid #125c48c9 !important;
+  border: none;
+}
+.wrapper form button:hover {
+  background: rgb(15, 114, 96);
+  border-top: 3px solid #125c48c9;
+}
+.wrapper .erro {
+  text-align: center;
+  color: #dc143c;
+  align-items: center;
+}
+.wrapper a {
+  color: #fff;
+  font-weight: 400;
+  padding: 5px 0;
+}
