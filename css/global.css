@@ -26,6 +26,7 @@ h2{
 input, label{
   color: #000;
   border: none;
+  font-size: 14px !important;
 }
 .div_all{
   position: absolute;

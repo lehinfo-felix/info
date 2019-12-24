@@ -4,30 +4,60 @@
     margin: 5px 0;
     padding: 5px;
 }
+.div_all form{
+    margin: 0 13%;
+}
+.div_all h2{
+    margin: 5% 0 -7% 5%;
+}
+.cpf_idade{
+    display: flex;
+}
 #nome_completo, #email, #cpf, #idade, #formacao, #experiencia, #data_nascimento, #observacoes{
-    
+    margin: 0 10px;
+    display: grid;
 }
-#nome_completo{
+#nome_completo input{
+    width: 488px;
+}
+#email input{
+    width: 488px;
+}
+#cpf input{
+    width: 320px;
+}
+#idade input{
+    width: 149px;
+}
+#formacao input{
+    width: 488px;
+    height: 95px !important;
 
 }
-#email{
-
+#experiencia input{
+    width: 488px;
+    height: 163px;
 }
-#cpf{
-
+#observacoes input{
+    width: 412px;
+    height: 345px;
 }
-#idade{
-
+.right_form{
+    position: absolute !important;
+    right: -500px !important;
+    top: 124px;
+    text-align: center;
 }
-#formacao{
-
+.btn_form{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
 }
-#experiencia{
-
+.btn_envia{
+    background-color: #1abc9cff;
 }
-#data_nascimento{
-
-}
-#observacoes{
-    
+.btn_cancela{
+    background-color: #c0392bff;
 }

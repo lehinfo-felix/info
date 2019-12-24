@@ -57,6 +57,7 @@ li a{
   display: table-cell;
    text-align: center;
    vertical-align: middle;
+   z-index: 10;
 }
 .msgDiv button{
   border: none;
