@@ -35,4 +35,5 @@ require('conexao.php');
     <link rel="stylesheet" href="<?=$urlBase?>css/molde.css">
     <link rel="stylesheet" href="<?=$urlBase?>css/global.css">
     <link rel="stylesheet" href="<?=$urlBase?>css/adicionar.css">
+    <link rel="stylesheet" href="<?=$urlBase?>css/index.css">
     

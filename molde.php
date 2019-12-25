@@ -1,3 +1,13 @@
+<?php
+    require("header.php");
+    $nameUser = $_SESSION['usuario']['name'];
+    $data = date('d:m');
+    if($data >= '24:12' && $data <= '25:12'){
+        $chapeu_natal= 'block';
+    }else{
+        $chapeu_natal= 'none';
+    }
+?>
 <title>AC Currículos - Dashboard</title>
 </head>
 <body>
@@ -5,13 +15,10 @@
     <div class="box">
     </div>
     <div class="leftBar">
-        <img src="imagens/user.png" alt="" srcset="">
+        <img src="imagens/chapeu_natal.png" alt="" srcset="" class="chapeu_natal" style="display:<?php echo $chapeu_natal;?>">
+        <img src="imagens/<?php echo $nameUser?>.png" alt="" srcset="">
         <p class="userName">
-            <?php
-                require("header.php");
-                $nameUser = $_SESSION['usuario']['name'];
-                echo $nameUser;
-            ?>
+            <?php echo $nameUser;?>
         </p>
         <ul>
             <li class="<?= $paginaAtualA;?>" ><a href="adicionar.php">Adicionar</a></li>

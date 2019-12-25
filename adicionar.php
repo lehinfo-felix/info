@@ -21,14 +21,20 @@
     ENVIO DE DADOS PARA O BANCO DE DADOS
     */
     
-    $data = array ($nome_completo, $email, $cpf, $idade, $formacao, $experiencia, $data_nascimento, $observacoes);
-    $upUser = $pdo->prepare("INSERT INTO curriculos(nome_completo, email, cpf, idade, formacao, experiencia, data_nascimento, observacoes) VALUES (?,?,?,?,?,?,?,?)");
+
+    if(empty($nome_completo) || empty($email) || empty(cpf) || empty($formacao) || empty($experiencia) || empty($idade) || empty($data_nascimento) || empty($observacoes)){
+        $msgEnvia = 'Preencha todos os campos obrigatórios.*';
+        echo $msgEnvia;
+    }else{  
+        $data = array ($nome_completo, $email, $cpf, $idade, $formacao, $experiencia, $data_nascimento, $observacoes);
+        $upUser = $pdo->prepare("INSERT INTO curriculos(nome_completo, email, cpf, idade, formacao, experiencia, data_nascimento, observacoes) VALUES (?,?,?,?,?,?,?,?)");
         $upUser->execute($data);
-            if($upUser->rowCount () > 0){
+        if($upUser->rowCount () > 0){
             $msgEnvia = 'Currículo adicionado com sucesso!';
-            }else{
+        }else{
             $msgEnvia = 'Desculpe, houve um erro interno. O currículo não foi adicionado.';
-            }
+        }
+    }
     }
     ?>
 
@@ -78,5 +84,5 @@
             </div>
         <span>
         </span>
-            
+
         </form>

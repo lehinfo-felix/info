@@ -40,12 +40,12 @@ if(isset($_POST['entrar'])){
         /* Direciona para a página inicial */
         header("Location: index.php");
     } else {
-        $erro = password_hash($senha,PASSWORD_DEFAULT);
+        $erro = "Email ou senha incorretos!";
       }
       
     } else {
 
-        $erro = "Não foi possivel realizar o login!";
+        $erro = "Email ou senha incorretos!";
 
     }
   }
@@ -71,7 +71,7 @@ if(isset($_POST['entrar'])){
   </div>
     <form action="" method="POST" autocomplete="off">
       <div class="eml">
-      <input type="email" name="email" placeholder="Nome" autocomplete="false">
+      <input type="email" name="email" placeholder="E-mail" autocomplete="false">
         <img src="icons/user.svg" alt="" srcset="">
       </div>
       <div class="psw">

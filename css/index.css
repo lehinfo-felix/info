@@ -1,0 +1,75 @@
+.div_all{
+    /*background-color: red;*/
+}
+.div_all h1{
+    margin: 100px 0 0 400px;
+    color: #000;
+    font-size: 25px;
+}
+.out_dados1{
+    margin: 80px 0 0 250px;
+    background-color: #1abc9cff;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.dados1{
+    background-color: #1a1a1aff;
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+}
+.div_all .dados1 h4{
+    font-size: 90px;
+}
+.div_all .dados1 h5{
+    font-size: 20px;
+}
+.out_dados2{
+    margin-top: -250px;
+    margin-left: 600px;
+    background-color: #e67e22ff;
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    border-radius: 100%;
+}
+.dados2{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: #1a1a1aff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+}
+.div_all .dados2 h4{
+    font-size: 50px;
+}
+.div_all .dados2 h5{
+    font-size: 18px;
+}
+.user_status{
+    position: absolute;
+    right: -200px;
+    bottom: -100px;
+}
+.user_status img{
+    width: 60px;
+    border-radius: 100%;
+}
+.status_color{
+    position: absolute;
+    margin: -20px 40px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
