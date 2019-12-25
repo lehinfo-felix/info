@@ -4,8 +4,10 @@
     $data = date('d:m');
     if($data >= '24:12' && $data <= '25:12'){
         $chapeu_natal= 'block';
+        $saudacao = 'Feliz natal!';
     }else{
         $chapeu_natal= 'none';
+        $saudacao = '';
     }
 ?>
 <title>AC Currículos - Dashboard</title>
@@ -47,7 +49,7 @@
             }
 
         ?>
-        <p><?php echo $periodo ?>, seja bem-vindo(a) <b><?php echo $nameUser?>!</b></p>
+        <p><?php echo $periodo ?>, seja bem-vindo(a) <b><?php echo $nameUser?>! </b><?php echo $saudacao?> </p>
 
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>

@@ -1,0 +1,22 @@
+.curriculos {
+    margin: 10px 0 0 10px;
+    display: table;
+}
+.curriculo ul{
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+}
+.curriculo ul li{
+    padding: 10px 20px;
+    margin: 0;
+}
+.name{
+    background-color: #090a0e !important;
+}
+.curriculos{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}

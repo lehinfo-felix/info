@@ -32,8 +32,9 @@ require('conexao.php');
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="<?=$urlBase?>imagens/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="<?=$urlBase?>css/molde.css">
     <link rel="stylesheet" href="<?=$urlBase?>css/global.css">
-    <link rel="stylesheet" href="<?=$urlBase?>css/adicionar.css">
+    <link rel="stylesheet" href="<?=$urlBase?>css/molde.css">
     <link rel="stylesheet" href="<?=$urlBase?>css/index.css">
+    <link rel="stylesheet" href="<?=$urlBase?>css/adicionar.css">
+    <link rel="stylesheet" href="<?=$urlBase?>css/remover.css">
     
