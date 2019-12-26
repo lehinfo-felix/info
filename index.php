@@ -28,7 +28,7 @@
     <div class="out_dados2">
         <div class="dados2">
             <h4>03</h4>
-            <h5>Currículos<br>adicionados<br>ao sistema!</h5>
+            <h5>Usuários<br>atualmente<br>online!</h5>
         </div>
     </div>
     <div class="user_status">

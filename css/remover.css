@@ -1,10 +1,6 @@
-.curriculos {
-    margin: 10px 0 0 10px;
-    display: table;
-}
 .curriculo ul{
-    width: 100%;
-    height: 100%;
+    margin: 50px 40px 0 40px;
+    width: 1000px;
     display: table;
     text-align: center;
 }
@@ -16,7 +12,16 @@
     background-color: #090a0e !important;
 }
 .curriculos{
-    background-color: red;
+    text-align: center;
+    text-align: center;
     width: 100%;
     height: 100%;
+}
+.curriculo ul img{
+    position: relative;
+    margin: 10px 10px 0 0;
+    width: 20px;
+    top: -40px;
+    float: right;
+    font-weight: bold;
 }

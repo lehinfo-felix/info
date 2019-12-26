@@ -6,6 +6,11 @@
     $consulta_ids = $pdo->query("SELECT id FROM curriculos");
     $ids = $consulta_ids->fetchAll();
 
+    echo("
+    <div class='div_all'>
+    <div class='curriculos'>
+    ");
+
             foreach ($ids as $key => $value) {
 
                 $idz = $pdo->query("SELECT * FROM curriculos WHERE id = ".$ids[$key][0]);
@@ -18,16 +23,11 @@
                 $curriculo_email = $resultado_idz->email;
                 $curriculo_cpf = $resultado_idz->cpf;
                 require('curriculo.php');
-
             }
 
         $consulta = $pdo->query("SELECT * FROM curriculos");
         $numero_de_curriculos = $consulta->rowCount();
+        for ($i=1; $i <= $numero_de_curriculos; $i++) {}
     ?>
-        <div class="div_all">
-            <div class="curriculos">
-                <?php
-                for ($i=1; $i <= $numero_de_curriculos; $i++) {}
-                ?>
             </div>
         </div>

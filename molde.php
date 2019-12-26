@@ -2,7 +2,7 @@
     require("header.php");
     $nameUser = $_SESSION['usuario']['name'];
     $data = date('d:m');
-    if($data >= '24:12' && $data <= '25:12'){
+    if($data = '24:12' || $data = '25:12'){
         $chapeu_natal= 'block';
         $saudacao = 'Feliz natal!';
     }else{

@@ -6,6 +6,7 @@
   margin-bottom: 50px;
 }
 .leftBar{
+  position: fixed;
   width: 225px;
   height: 100%;
   background-color: #090a0eff;
@@ -19,6 +20,8 @@
   z-index: 1000;
 }
 .topBar{
+  z-index: 200;
+  position: fixed;
   width: 100%;
   height: 50px;
   float: right;
@@ -26,6 +29,7 @@
   position: fixed;
 }
 .box{
+  z-index: 200;
   position: fixed;
   width: 225px;
   height: 50px;
@@ -49,9 +53,9 @@ li a{
   float: right;
 }
 .msgDiv{
+  position: fixed;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  position: absolute;
   bottom: 0px;
   background-color: #090a0eff;
   padding: 10px 15px;
