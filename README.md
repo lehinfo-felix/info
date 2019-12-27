@@ -8,6 +8,7 @@
               ~ Ter o servidor XAMPP instalado na máquina
               ~ Iniciá-lo
               ~ Ter o git instalado (No caso do linux)
+              
 --WINDOWS
 
   * 1° Baixe o repositório disponível em https://github.com/lehinfo-felix/info;
