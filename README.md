@@ -17,7 +17,7 @@
   * 3º Abra em seu navegador: localhost/phpmyadmin;
   * 4º Crie uma base de dados 'ac';
   * 5º Clique em inserir e adicione o arquivo ac.sql;
-  * 6º Acesse no navegador: localhost/InfoWebll
+  * 6º Acesse no navegador: localhost/InfoWebll;
   * 7º Logue como jezmaelbasilio@gmail.com // senha: 1234
   * 8º Aproveite!
   
@@ -29,7 +29,7 @@
   * 4º Abra em seu navegador: localhost/phpmyadmin;
   * 5º Crie uma base de dados 'ac';
   * 6º Clique em inserir e adicione o arquivo ac.sql;
-  * 7º Acesse no navegador: localhost/InfoWebll
+  * 7º Acesse no navegador: localhost/InfoWebll;
   * 8º Logue como jezmaelbasilio@gmail.com // senha: 1234
   * 9º Aproveite!
   
