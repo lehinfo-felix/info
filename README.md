@@ -4,7 +4,8 @@
   * É um site de publicação de currículos, assim as empresas e contratantes analisam e escolhem a pessoa mais capacitada para o emprego.
  
 -COMO INSTALO NA MINHA MÁQUINA?
-*Requisitos:
+
+* Requisitos:
               ~ Ter o servidor XAMPP instalado na máquina
               ~ Iniciá-lo
               ~ Ter o git instalado (No caso do linux)
