@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Tempo de geração: 26-Dez-2019 às 02:07
+-- Tempo de geração: 25-Dez-2019 às 16:37
 -- Versão do servidor: 10.4.8-MariaDB
 -- versão do PHP: 7.3.11
 
@@ -45,12 +45,12 @@ CREATE TABLE `curriculos` (
 --
 
 INSERT INTO `curriculos` (`id`, `nome_completo`, `email`, `cpf`, `idade`, `formacao`, `experiencia`, `data_nascimento`, `observacoes`) VALUES
+(14, 'Jezmael Oliveira Basilio', 'jezmaelbasilio@gmail.com', '088.767.122-67', 35, 'Jedai', 'Professor na EEEP Doutor José Iran Costa', '1995-11-05', 'Um professor very top e humilde'),
 (15, 'Francisco Leandro Araujo Felix', 'lehinfo.felix@gmail.com', '088.767.122-67', 35, 'Curso técnico em informática', 'Estágio remunerado 300 horas', '2002-10-11', 'Altamente flexível, alegre e companheiro'),
 (16, 'Thalyson de Oliveira Lima', 'thalysonolliver39@gmail.com', '088.767.122-67', 16, 'Curso técnico em informática', 'Estágio remunerado 300 horas', '2003-04-27', 'Altamente flexível, alegre e companheiro'),
 (17, 'Priscila Vieira da Costa', 'Privc14@gmail.com', '641.619.430-91', 16, 'Curso técnico em informática', 'Estágio remunerado 300 horas', '2003-02-14', 'Altamente flexível, alegre e companheira'),
 (18, 'Hilara Giselly Macedo Bitu', 'hilaramacedoo@gmail.com', '827.372.891.76', 16, 'Curso técnico em informática', 'Estágio remunerado 300 horas', '2003-02-28', 'Altamente flexível, alegre e companheira'),
-(33, 'Hugo Oliveira Firme', 'hugooliveirafirme080802@gmail.com', '093.099.133-88', 17, 'Curso técnico em informática', 'Estágio remunerado 300 horas', '2002-08-08', 'Altamente flexível, alegre e companheiro'),
-(34, 'Emanoel Olival Pereira Martins', 'Olivaltutoriais77@gmail.com', '017.987.654-52', 15, 'Curso técnico em informática', 'Estágio remunerado 300 horas', '2003-12-25', 'Altamente flexível, alegre e companheiro');
+(31, 'Francisco Francinilton Nunes da Costa Junior', 'teste@gmail.com', '827.372.891.76', 16, 'Curso técnico em informática', 'Estágio remunerado 300 horas', '2003-02-28', 'Altamente flexível, alegre e companheira');
 
 -- --------------------------------------------------------
 
@@ -78,8 +78,7 @@ INSERT INTO `user` (`id_user`, `name`, `lastname`, `email`, `password`, `created
 (3, 'Thalyson', 'Oliveira', 'thalysonolliver39@gmail.com', '$2y$10$LDRX3vHgz9/wPPTPOVcFtOOGdnMj5S8MyMFSGgtg43COIthE5bSz2', '2019-09-18 00:00:00', '2019-09-18 16:29:10'),
 (4, 'Priscila', 'Costa', 'Privc14@gmail.com', '$2y$10$LDRX3vHgz9/wPPTPOVcFtOOGdnMj5S8MyMFSGgtg43COIthE5bSz2', '2019-09-18 00:00:00', '2019-09-18 16:29:10'),
 (5, 'Hilara', 'Macedo', 'hilaramacedoo@gmail.com', '$2y$10$LDRX3vHgz9/wPPTPOVcFtOOGdnMj5S8MyMFSGgtg43COIthE5bSz2', '2019-09-18 00:00:00', '2019-09-18 16:29:10'),
-(6, 'Olival', 'Martins', 'Olivaltutoriais77@gmail.com', '$2y$10$LDRX3vHgz9/wPPTPOVcFtOOGdnMj5S8MyMFSGgtg43COIthE5bSz2', '2019-09-18 00:00:00', '2019-09-18 16:29:10'),
-(7, 'Hugo', 'Oliveira', 'hugooliveirafirme080802@gmail.com', '$2y$10$LDRX3vHgz9/wPPTPOVcFtOOGdnMj5S8MyMFSGgtg43COIthE5bSz2', '2019-09-18 00:00:00', '2019-09-18 16:29:10');
+(6, 'Olival', 'Martins', 'Olivaltutoriais77@gmail.com', '$2y$10$LDRX3vHgz9/wPPTPOVcFtOOGdnMj5S8MyMFSGgtg43COIthE5bSz2', '2019-09-18 00:00:00', '2019-09-18 16:29:10');
 
 --
 -- Índices para tabelas despejadas
@@ -105,13 +104,13 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT de tabela `curriculos`
 --
 ALTER TABLE `curriculos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT de tabela `user`
 --
 ALTER TABLE `user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
